@@ -1,177 +1,154 @@
 body{
-
 font-family:Arial;
 margin:0;
 background:#f4f4f4;
-
 }
 
 .navbar{
-
 display:flex;
 justify-content:space-between;
 align-items:center;
 background:#111;
-color:white;
 padding:15px 40px;
-
+color:white;
 }
 
-.navbar ul{
-
+.nav-list{
 display:flex;
 list-style:none;
-
 }
 
-.navbar li{
-
+.nav-list li{
 margin-left:20px;
-
 }
 
-.navbar a{
-
+.nav-list a{
 color:white;
 text-decoration:none;
+}
 
+.menu-toggle{
+display:none;
+flex-direction:column;
+cursor:pointer;
+}
+
+.menu-toggle span{
+height:3px;
+width:25px;
+background:white;
+margin:4px;
 }
 
 .hero{
-
 height:90vh;
 background:url("https://images.unsplash.com/photo-1503387762-592deb58ef4e") center/cover;
 display:flex;
-justify-content:center;
 align-items:center;
+justify-content:center;
 color:white;
 text-align:center;
-
 }
 
 .hero-text{
-
 background:rgba(0,0,0,0.5);
 padding:40px;
 border-radius:10px;
-
 }
 
 .btn{
-
 background:#ff6600;
 padding:12px 25px;
 color:white;
 text-decoration:none;
 border-radius:5px;
-
 }
 
-.services{
-
-padding:70px;
+.services,.projects,.about,.contact{
+padding:80px;
 text-align:center;
-
 }
 
 .services-grid{
-
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
 gap:20px;
-
 }
 
 .card{
-
 background:white;
 padding:25px;
 border-radius:10px;
 box-shadow:0 5px 20px rgba(0,0,0,0.1);
-
+transition:0.3s;
 }
 
-.projects{
-
-padding:70px;
-text-align:center;
-
+.card:hover{
+transform:translateY(-10px);
 }
 
 .gallery{
-
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
-
 }
 
 .gallery img{
-
 width:100%;
 border-radius:10px;
-
-}
-
-.about{
-
-padding:70px;
-background:white;
-text-align:center;
-
-}
-
-.contact{
-
-padding:70px;
-text-align:center;
-
 }
 
 form{
-
 max-width:400px;
 margin:auto;
 display:flex;
 flex-direction:column;
-
 }
 
-input, textarea{
-
+input,textarea{
 margin:10px 0;
 padding:10px;
-
 }
 
 button{
-
 padding:12px;
 background:#003366;
 color:white;
 border:none;
-
 }
 
-footer{
-
-background:#000;
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
 color:white;
-text-align:center;
-padding:20px;
-
+padding:15px;
+border-radius:50px;
+text-decoration:none;
 }
 
 @media(max-width:768px){
 
-.navbar ul{
-
+.nav-list{
 display:none;
-
+flex-direction:column;
+background:#111;
+position:absolute;
+top:60px;
+right:0;
+width:200px;
 }
 
-.hero h1{
+.nav-list.active{
+display:flex;
+}
 
+.menu-toggle{
+display:flex;
+}
+
+}
 font-size:28px;
 
 }
