@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
 <meta charset="UTF-8">
@@ -9,60 +10,73 @@
 
 <link rel="stylesheet" href="style.css">
 
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 
 <body>
 
 <header>
+
 <nav class="navbar">
 
 <h2 class="logo">ABSCO</h2>
 
 <ul>
+
 <li><a href="#home">Home</a></li>
 <li><a href="#services">Services</a></li>
 <li><a href="#projects">Projects</a></li>
 <li><a href="#about">About</a></li>
 <li><a href="#contact">Contact</a></li>
+
 </ul>
 
 </nav>
+
 </header>
 
 <section class="hero" id="home">
 
-<h1>Absco All Building Services Company</h1>
+<div class="hero-text">
 
-<p>Professional building maintenance and construction services.</p>
+<h1 data-aos="fade-up">Building Solutions You Can Trust</h1>
+
+<p data-aos="fade-up">
+Absco All Building Services Company provides construction,
+maintenance and facility solutions.
+</p>
 
 <a href="#contact" class="btn">Request a Quote</a>
+
+</div>
 
 </section>
 
 <section class="services" id="services">
 
-<h2>Our Services</h2>
+<h2 data-aos="fade-up">Our Services</h2>
 
-<div class="service-grid">
+<div class="services-grid">
 
-<div class="card">
-<h3>Building Maintenance</h3>
-<p>Maintenance services for commercial and residential buildings.</p>
-</div>
-
-<div class="card">
+<div class="card" data-aos="zoom-in">
 <h3>Construction</h3>
-<p>High quality construction services.</p>
+<p>Professional construction services.</p>
 </div>
 
-<div class="card">
+<div class="card" data-aos="zoom-in">
+<h3>Building Maintenance</h3>
+<p>Complete building maintenance services.</p>
+</div>
+
+<div class="card" data-aos="zoom-in">
 <h3>Renovations</h3>
-<p>Interior and exterior renovation solutions.</p>
+<p>Interior and exterior renovation projects.</p>
 </div>
 
-<div class="card">
+<div class="card" data-aos="zoom-in">
 <h3>Cleaning Services</h3>
-<p>Professional commercial cleaning.</p>
+<p>Industrial and commercial cleaning.</p>
 </div>
 
 </div>
@@ -71,13 +85,13 @@
 
 <section class="projects" id="projects">
 
-<h2>Our Projects</h2>
+<h2 data-aos="fade-up">Our Projects</h2>
 
 <div class="gallery">
 
-<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
-<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab">
-<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd">
+<img src="images/project1.jpeg">
+<img src="images/project2.jpeg">
+<img src="images/project3.jpeg">
 
 </div>
 
@@ -85,11 +99,11 @@
 
 <section class="about" id="about">
 
-<h2>About Us</h2>
+<h2 data-aos="fade-up">About Us</h2>
 
-<p>
-Absco All Building Services Company provides reliable building services,
-maintenance and construction solutions.
+<p data-aos="fade-up">
+We deliver professional building services with reliability,
+quality workmanship and customer satisfaction.
 </p>
 
 </section>
@@ -100,13 +114,13 @@ maintenance and construction solutions.
 
 <form>
 
-<input type="text" placeholder="Your Name">
+<input type="text" placeholder="Name">
 
 <input type="email" placeholder="Email">
 
 <textarea placeholder="Message"></textarea>
 
-<button type="submit">Send Message</button>
+<button type="submit">Send</button>
 
 </form>
 
@@ -118,7 +132,10 @@ maintenance and construction solutions.
 
 </footer>
 
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 <script src="script.js"></script>
 
 </body>
+
 </html>
