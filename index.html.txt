@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Absco All Building Services Company</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<nav class="navbar">
+
+<h2 class="logo">ABSCO</h2>
+
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+</header>
+
+<section class="hero" id="home">
+
+<h1>Absco All Building Services Company</h1>
+
+<p>Professional building maintenance and construction services.</p>
+
+<a href="#contact" class="btn">Request a Quote</a>
+
+</section>
+
+<section class="services" id="services">
+
+<h2>Our Services</h2>
+
+<div class="service-grid">
+
+<div class="card">
+<h3>Building Maintenance</h3>
+<p>Maintenance services for commercial and residential buildings.</p>
+</div>
+
+<div class="card">
+<h3>Construction</h3>
+<p>High quality construction services.</p>
+</div>
+
+<div class="card">
+<h3>Renovations</h3>
+<p>Interior and exterior renovation solutions.</p>
+</div>
+
+<div class="card">
+<h3>Cleaning Services</h3>
+<p>Professional commercial cleaning.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="projects" id="projects">
+
+<h2>Our Projects</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+<img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab">
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd">
+
+</div>
+
+</section>
+
+<section class="about" id="about">
+
+<h2>About Us</h2>
+
+<p>
+Absco All Building Services Company provides reliable building services,
+maintenance and construction solutions.
+</p>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2>Contact Us</h2>
+
+<form>
+
+<input type="text" placeholder="Your Name">
+
+<input type="email" placeholder="Email">
+
+<textarea placeholder="Message"></textarea>
+
+<button type="submit">Send Message</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<p>© 2026 Absco All Building Services Company</p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
